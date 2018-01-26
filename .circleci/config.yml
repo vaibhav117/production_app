@@ -13,5 +13,7 @@ jobs:
   test:
       - run:
           name: sample_testing
-          command: |
-            echo "hi there!"
+
+  machine:
+    post:
+      - echo "hi there!"
