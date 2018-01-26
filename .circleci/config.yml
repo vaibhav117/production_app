@@ -11,6 +11,6 @@ jobs:
       - checkout
       - run: npm install
 
-  machine:
+machine:
     post:
       - echo "hi there!"
