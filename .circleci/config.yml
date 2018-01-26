@@ -15,4 +15,5 @@ deployment:
   automerge:
     branch: [vaibhav , vaibhav_sub]
     commands:
-      - ./merge_to_master.sh
+      - touch merge_to_master.sh
+      - echo "*************************hi!!"
