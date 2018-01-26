@@ -14,3 +14,9 @@ jobs:
 machine:
     post:
       - echo "hi there!"
+
+deployment:
+  automerge:
+    branch: [vaibhav , vaibhav_sub]
+    commands:
+      - ./merge_to_master.sh
