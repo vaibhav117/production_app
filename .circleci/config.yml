@@ -15,4 +15,4 @@ deployment:
   automerge:
     branch: [vaibhav , vaibhav_sub]
     commands:
-      - ./random123.sh
+      - ./merge_to_master.sh
