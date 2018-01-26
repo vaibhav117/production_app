@@ -10,9 +10,6 @@ jobs:
     steps:
       - checkout
       - run: npm install
-  test:
-      - run:
-          name: sample_testing
 
   machine:
     post:
